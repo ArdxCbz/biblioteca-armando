@@ -1,0 +1,123 @@
+
+.lista-libros {
+  max-width: 1200px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.section {
+  background: linear-gradient(to right, #007bff, #00d2ff);
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.section h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.section p {
+  font-size: 1.2em;
+}
+
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 15px;
+  text-align: center;
+  color: #333;
+  font-weight: bold;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+thead {
+  background-color: #343a40;
+  color: white;
+}
+
+th, td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  font-size: 1.1em;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #e9ecef;
+  transform: translateY(-2px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+button {
+  padding: 8px 16px;
+  font-size: 0.9em;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+button:first-child {
+  background-color: #28a745;
+}
+
+button:last-child {
+  background-color: #dc3545;
+}
+
+button:first-child:hover {
+  background-color: #218838;
+}
+
+button:last-child:hover {
+  background-color: #c82333;
+}
+
+
+td {
+  font-size: 1.1em;
+  color: #555;
+}
+
+td button {
+  padding: 6px 12px;
+  font-size: 0.9em;
+  margin: 0 5px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 1em;
+  color: #777;
+}
+
+footer p {
+  font-weight: normal;
+}

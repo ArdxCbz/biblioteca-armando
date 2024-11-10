@@ -1,0 +1,12 @@
+<div class="buscar-libro">
+    <h2>Buscar Libro</h2>
+    <input type="text" [(ngModel)]="criterioBusqueda" placeholder="Buscar por título, autor o año" />
+    <button (click)="buscarLibros()">Buscar</button>
+  
+    <ul>
+      <li *ngFor="let libro of librosFiltrados">
+        <p><strong>{{ libro.titulo }}</strong> - {{ libro.autor }} ({{ libro.year }})</p>
+      </li>
+    </ul>
+  </div>
+  

@@ -1,0 +1,31 @@
+<div class="lista-libros">
+  <section class="section">
+  <h1>Bienvenido a la Biblioteca</h1>
+  <p>Esta es la página principal de nuestra aplicación de biblioteca.</p>
+  <p>Realizado por Armando Cabezas</p>
+  </section>
+  <h2>Lista de Libros</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Título</th>
+        <th>Autor</th>
+        <th>Año</th>
+        <th>Acciones</th>  
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let libro of libros">
+        <td>{{ libro.id }}</td>
+        <td>{{ libro.titulo }}</td>
+        <td>{{ libro.autor }}</td>
+        <td>{{ libro.year }}</td>
+        <td>
+          <button [routerLink]="['/editar-libro', libro.id]">Editar</button>
+          <button [routerLink]="['/eliminar-libro', libro.id]">Eliminar</button> 
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
